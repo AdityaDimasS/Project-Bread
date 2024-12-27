@@ -12,7 +12,7 @@ class UserSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(): void
     {
         // Menggunakan factory untuk membuat 2 data user otomatis
         User::factory(2)->create();

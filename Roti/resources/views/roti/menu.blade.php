@@ -19,7 +19,7 @@
                     <!-- Menampilkan harga dengan format rupiah -->
                     <p class="price">Rp {{ number_format($menu->price, 0, ',', '.') }}</p>
                     <!-- Tombol pesan -->
-                    <a href="https://wa.me/087794082895?text=Halo, Silahkan Menghubungi Nomor Ini Untuk Melakukan Pre Order." target="_blank" class="btn-order">
+                    <a href="https://wa.me/087794082895?text=Halo, Silahkan Menghubungi Nomor Ini Untuk Melakukan Pre Order." target="https://wa.me/087794082895" class="btn-order">
                         Pesan Sekarang
                     </a>
                 </div>
